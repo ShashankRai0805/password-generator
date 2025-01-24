@@ -13,7 +13,7 @@ def password_gnerator():
     symbol3 = random.choice(symbolList)
     password = f"{adjective.capitalize()}{noun.capitalize()}{num1}{num2}{num3}{symbol1}{symbol2}{symbol3}"
     return password
-print("WELCOME TO PASSWORD GENERATOR!")
+print("WELCOME TO PASSWORD GENERATOR CREATED BY ME!")
 print("GENERATING PASSWORD...")
 password = password_gnerator()
 print(f"GENERATED PASSWORD : {password}")
